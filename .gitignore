@@ -49,3 +49,6 @@ coverage
 
 # Test
 jest-html-reporters-*
+
+node_modules
+dist

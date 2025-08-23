@@ -1,0 +1,29 @@
+[
+  {
+    "id": "a1",
+    "title": "API Artifact discovery in DevHub",
+    "owner": "Shome",
+    "reach": 500,
+    "impact": 3,
+    "confidence": 85,
+    "effort": 2
+  },
+  {
+    "id": "b2",
+    "title": "Quota policy UX polish",
+    "owner": "Ruchir",
+    "reach": 300,
+    "impact": 2,
+    "confidence": 70,
+    "effort": 1.5
+  },
+  {
+    "id": "c3",
+    "title": "Customer POC templates",
+    "owner": "Team Quark",
+    "reach": 150,
+    "impact": 2,
+    "confidence": 90,
+    "effort": 0.8
+  }
+]

@@ -1,0 +1,17 @@
+# Ignore tests, configs, and dev files when publishing
+src/
+public/
+data/
+.github/
+.vscode/
+*.config.js
+*.config.ts
+*.test.ts
+*.test.tsx
+tsconfig.json
+tsconfig.node.json
+vite.config.ts
+tailwind.config.js
+postcss.config.js
+*.md
+!README.md

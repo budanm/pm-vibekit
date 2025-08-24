@@ -19,11 +19,56 @@
   },
   {
     "id": "c3",
-    "title": "Quick search bar",
+    "title": "Global search bar",
     "owner": "Charlie",
-    "reach": 150,
+    "reach": 250,
     "impact": 2,
     "confidence": 90,
+    "effort": 0.8
+  },
+  {
+    "id": "d4",
+    "title": "In-app notifications center",
+    "owner": "Dana",
+    "reach": 400,
+    "impact": 2,
+    "confidence": 75,
+    "effort": 1.2
+  },
+  {
+    "id": "e5",
+    "title": "Role-based access control",
+    "owner": "Eve",
+    "reach": 180,
+    "impact": 3,
+    "confidence": 80,
+    "effort": 2.5
+  },
+  {
+    "id": "f6",
+    "title": "Usage analytics dashboard",
+    "owner": "Frank",
+    "reach": 220,
+    "impact": 2,
+    "confidence": 70,
+    "effort": 1.8
+  },
+  {
+    "id": "g7",
+    "title": "Onboarding checklist",
+    "owner": "Grace",
+    "reach": 350,
+    "impact": 1,
+    "confidence": 95,
+    "effort": 0.5
+  },
+  {
+    "id": "h8",
+    "title": "Export to CSV/PDF",
+    "owner": "Heidi",
+    "reach": 280,
+    "impact": 1.5,
+    "confidence": 85,
     "effort": 0.8
   }
 ]

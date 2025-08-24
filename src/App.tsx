@@ -112,9 +112,10 @@ function Prioritize() {
     if (raw) {
       try { return JSON.parse(raw) as Item[]; } catch {}
     }
+    // Inside function Prioritize() default state:
     return [
-      { id: uid(), title: "Reusable API Artifacts demo improvements", owner: "You", reach: 200, impact: 2, confidence: 80, effort: 2 },
-      { id: uid(), title: "Customer feedback loop automation", owner: "You", reach: 80, impact: 3, confidence: 70, effort: 1 },
+      { id: uid(), title: "Dark mode support",   owner: "You", reach: 200, impact: 2, confidence: 80, effort: 2 },
+      { id: uid(), title: "Global search bar",   owner: "You", reach: 120, impact: 2, confidence: 85, effort: 1 }
     ];
   });
   const [mode, setMode] = useState<"RICE" | "ICE">("RICE");
